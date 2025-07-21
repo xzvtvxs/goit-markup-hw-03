@@ -25,6 +25,7 @@ a {
 button {
     padding: 0;
     cursor: pointer;
+    border: none;
 }
 
 h1,
@@ -186,6 +187,8 @@ border-bottom: 1px solid #E7E9FC;
     border-radius: 4px; 
     display: block;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -319,9 +322,7 @@ border-bottom: 1px solid #E7E9FC;
     border: 1px solid #E7E9FC;
     border-top: none;
     padding-top: 32px;
-    padding-right: 16px;
     padding-bottom: 32px;
-    padding-left: 16px;
 }
 
 .portfolio-card-header {
@@ -347,7 +348,7 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .logo-link-footer{
-    display: flex;
+    display: block;
     margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -363,7 +364,6 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .footer-paragraph {
-    display: flex;
     width: 264px;
     font-weight: 400;
     font-size: 16px;

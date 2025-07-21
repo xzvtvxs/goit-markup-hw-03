@@ -84,11 +84,11 @@ border-bottom: 1px solid #E7E9FC;
 .flex-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -96,7 +96,6 @@ border-bottom: 1px solid #E7E9FC;
 }
 
 .logo-link {
-    margin-top: 24px;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
